@@ -384,16 +384,6 @@ nav .icon-burger .line {
 
 /* Gallery */
 
-<div class="project__container-images">
-<div class="project__image project__image-one" data-scroll data-scroll-speed="1">
-</div>
-<div class="project__image project__image-two" data-scroll data-scroll-speed="4">
-</div>
-<div class="project__image project__image-three" data-scrol data-scroll-speed="2">
-</div>
-<div class="project__image project__image-four" data-scroll data-scroll-speed="4">
-</div>
-</div>
 /* .gallery {
   display: grid;
   width: 100%;
@@ -709,5 +699,132 @@ footer {
   /* About Section */
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+
+.project__container {
+  width: 70%;
+  margin: 100px auto;
+  /* border: 1px solid #5c5c5c; */
+  color: #fff;
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.project__container-images {
+  position: relative;
+  width: 100%;
+  height: 600vh;
+  padding: 40px 0;
+}
+
+.project__image {
+  /* background: red; */
+  width: 600px;
+  height: 500px;
+  margin: 40px auto;
+}
+
+.project__image-one {
+  background: url("https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project__image-two {
+  position: relative;
+  top: -100px;
+  left: -260px;
+  background: url("https://images.unsplash.com/photo-1521498542256-5aeb47ba2b36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project__image-three {
+  position: relative;
+  left: 300px;
+  background: url("https://images.unsplash.com/photo-1542594452-cd83273a8f20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project__image-four {
+  position: relative;
+  top: -200px;
+  left: -100px;
+  background: url("https://images.unsplash.com/photo-1517231305676-5702be37e853?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.project__image-five {
+  position: relative;
+  top: -400px;
+  left: 300px;
+  background: url("https://images.unsplash.com/photo-1527534085786-f44cde0659a2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+.project__image-six {
+  position: relative;
+  top: -400px;
+  left: -300px;
+  background: url("https://images.unsplash.com/photo-1578021127722-1f1ff95b429e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+.project__image-seven {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  top: -850px;
+  left: 350px;
+  z-index: 6;
+  background: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+.project__image-eight {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  top: -1080px;
+  left: 150px;
+  background: url("https://images.unsplash.com/photo-1497562187797-ec8cb333f512?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+    no-repeat 50% 50%;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .project__container-title h1 {
+    font-size: 40px;
+  }
+
+  .project__container {
+    width: 80%;
+  }
+
+  .project__container-images {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .project__image {
+    width: 90%;
+  }
+
+  .project__image-one,
+  .project__image-two,
+  .project__image-three,
+  .project__image-four,
+  .project__image-five,
+  .project__image-six,
+  .project__image-seven,
+  .project__image-eight,
+  .project__image-nine,
+  .project__image-ten {
+    position: relative;
+    top: 0;
+    left: 0;
   }
 }
