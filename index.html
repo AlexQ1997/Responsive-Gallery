@@ -14,18 +14,56 @@
 
   <body>
     <!-- Name -->
+    <div class="img-1 img"></div>
+    <div class="img-2 img"></div>
+    <div class="img-3 img"></div>
+    <div class="img-4 img"></div>
+    <div class="img-5 img"></div>
     <div class="main">
       <div class="name">
-        <h1 data-text="Everything has it’s beauty, but not everyone sees it. ">
-          Everything has it’s beauty, but not everyone sees it.
+        <h1 data-text="The art of freezing time.">
+          The art of freezing time.
         </h1>
-        <p class="line anim-typewriter">AQMEDIA</p>
+        <!-- <p class="line anim-typewriter">AQMEDIA</p> -->
       </div>
 
       <a class="cool-link" href="gallery.html">Enter</a>
     </div>
 
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <!-- Cursor  -->
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+
     <script src="script.js"></script>
+    <script>
+      const img1 = document.querySelector(".img-1");
+      const img2 = document.querySelector(".img-2");
+      const img3 = document.querySelector(".img-3");
+      const img4 = document.querySelector(".img-4");
+      const img5 = document.querySelector(".img-5");
+
+      document.addEventListener("mousemove", (e) => {
+        img1.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left :" + (e.pageX - 200) + "px"
+        );
+        img2.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left :" + (e.pageX - 200) + "px"
+        );
+        img3.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left :" + (e.pageX - 200) + "px"
+        );
+        img4.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left :" + (e.pageX - 200) + "px"
+        );
+        img5.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left :" + (e.pageX - 200) + "px"
+        );
+      });
+    </script>
   </body>
 </html>
