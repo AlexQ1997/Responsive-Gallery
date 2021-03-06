@@ -383,7 +383,18 @@ nav .icon-burger .line {
 /* Navigation End  */
 
 /* Gallery */
-.gallery {
+
+<div class="project__container-images">
+<div class="project__image project__image-one" data-scroll data-scroll-speed="1">
+</div>
+<div class="project__image project__image-two" data-scroll data-scroll-speed="4">
+</div>
+<div class="project__image project__image-three" data-scrol data-scroll-speed="2">
+</div>
+<div class="project__image project__image-four" data-scroll data-scroll-speed="4">
+</div>
+</div>
+/* .gallery {
   display: grid;
   width: 100%;
   height: 200vh !important;
@@ -442,7 +453,7 @@ nav .icon-burger .line {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(7, 1fr);
   }
-}
+} */
 
 /* Footer */
 footer {
