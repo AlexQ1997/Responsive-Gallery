@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
 * {
   list-style: none;
   text-decoration: none;
@@ -583,6 +587,11 @@ footer {
   margin: 40px 0;
   font-size: 36px;
 }
+.about .about-container h5 {
+  margin: 40px 0;
+  font-size: 36px;
+  font-family: 'Cinzel Decorative', cursive;
+}
 
 @media (max-width: 900px) {
   .about .about-container {
@@ -675,7 +684,7 @@ footer {
 }
 
 .project__image-one {
-  background: url("https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80")
+  background: url(images/ny1.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -684,7 +693,7 @@ footer {
   position: relative;
   top: -100px;
   left: -260px;
-  background: url("https://images.unsplash.com/photo-1521498542256-5aeb47ba2b36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  background: url(images/ny2.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -692,7 +701,7 @@ footer {
 .project__image-three {
   position: relative;
   left: 300px;
-  background: url("https://images.unsplash.com/photo-1542594452-cd83273a8f20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  background: url(images/ny3.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -701,7 +710,9 @@ footer {
   position: relative;
   top: -200px;
   left: -100px;
-  background: url("https://images.unsplash.com/photo-1517231305676-5702be37e853?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  width: 900px;
+  height: 500px;
+  background: url(images/ny4.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -710,7 +721,9 @@ footer {
   position: relative;
   top: -400px;
   left: 300px;
-  background: url("https://images.unsplash.com/photo-1527534085786-f44cde0659a2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+  width: 700px;
+  height: 400px;
+  background: url(images/snowport2.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -718,7 +731,9 @@ footer {
   position: relative;
   top: -400px;
   left: -300px;
-  background: url("https://images.unsplash.com/photo-1578021127722-1f1ff95b429e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80")
+  width: 400px;
+  height: 500px;
+  background: url(images/port6.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -729,7 +744,7 @@ footer {
   top: -850px;
   left: 350px;
   z-index: 6;
-  background: url("https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80")
+  background: url(images/snowport3.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
@@ -739,7 +754,7 @@ footer {
   height: 500px;
   top: -1080px;
   left: 150px;
-  background: url("https://images.unsplash.com/photo-1497562187797-ec8cb333f512?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+  background: url(images/tx1.jpg)
     no-repeat 50% 50%;
   background-size: cover;
 }
